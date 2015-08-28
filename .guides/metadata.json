@@ -1,8 +1,55 @@
 {
  "sections": [
   {
-   "id": "c8136e6a-a497-2142-83a4-719e2a1b98dc",
+   "id": "f2ba496d-9d9d-bba9-3fa-450d3aaeddc3",
    "title": "Loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loops-f2ba.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "4c9e559e-12f8-e1e-4a1c-83eabeef88fc",
+   "title": "Preparation video",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Preparation-video-4c9e.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "a5d7e34-7ff8-d078-86c4-b992cdcf3bff",
+   "title": "Experiments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "experiment.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Experiments-a5d7.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "c8136e6a-a497-2142-83a4-719e2a1b98dc",
+   "title": "Loops overview",
    "files": [
     {
      "path": "#tabs",
@@ -14,10 +61,10 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Loops-c813.md",
+   "content-file": ".guides/content/Loops-overview-c813.md",
    "chapter": true,
    "reset": [
     "1-loops"
@@ -25,21 +72,53 @@
   },
   {
    "id": "e21d4083-c87f-f251-7bf6-ca5eca7eadd0",
-   "title": "Counters & variables",
-   "files": [],
+   "title": "A 'while' loop",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-loops/while.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Counters---variables-e21d.md",
+   "content-file": ".guides/content/A--while--loop-e21d.md",
    "chapter": false,
    "reset": []
   },
   {
    "id": "f8289a94-27dd-b97d-ecad-335dc113364b",
-   "title": "The loop condition",
+   "title": "While explained",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-loop-condition-f828.md",
+   "content-file": ".guides/content/While-explained-f828.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "1f64d5d4-e1ba-14bf-622c-3c9d1478ac3d",
+   "title": "Beware infinite loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-loops/infinite.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Beware-infinite-loops-1f64.md",
    "chapter": false,
    "reset": []
   },
@@ -68,7 +147,7 @@
      "action": "close"
     },
     {
-     "path": "0-N.flode",
+     "path": "0-N.js",
      "panel": 0,
      "action": "open"
     }
@@ -89,7 +168,7 @@
      "action": "close"
     },
     {
-     "path": "N-0.flode",
+     "path": "N-0.js",
      "panel": 0,
      "action": "open"
     }
@@ -103,14 +182,14 @@
   },
   {
    "id": "3e0a81c0-5191-d600-a70-570064df69c1",
-   "title": "Even numbers only",
+   "title": "N to 0 or -N to 0",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "0-N-even.flode",
+     "path": "0-N-0.js",
      "panel": 0,
      "action": "open"
     }
@@ -118,7 +197,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Even-numbers-only-3e0a.md",
+   "content-file": ".guides/content/N-to-0-or--N-to-0-3e0a.md",
    "chapter": false,
    "reset": []
   },
@@ -146,6 +225,91 @@
    ]
   },
   {
+   "id": "5d3dbe96-21a-379b-472e-3910f875cff8",
+   "title": "Equivalent code",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "2-loops/utility.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Equivalent-code-5d3d.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "5c748613-e799-7ea0-6877-8ff8c94db4b1",
+   "title": "For loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "3-loops/for1.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-loops-5c74.md",
+   "chapter": true,
+   "reset": [
+    "3-loops"
+   ]
+  },
+  {
+   "id": "5398b862-1d1b-1654-981a-7d50e238a689",
+   "title": "For explained",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/For-explained-5398.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9dfd4f86-fb0b-f69a-573c-27a0dec04166",
+   "title": "A bit more on for",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "3-loops/for2.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-bit-more-on-for-9dfd.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "72b490a7-f150-b82b-26dd-53a1ffdf2d3",
+   "title": "ctr++, ctr--",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-24-72b4.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
    "id": "483ada2-3b7b-349a-c689-d356899242e0",
    "title": "Challenges",
    "files": [
@@ -170,7 +334,7 @@
      "action": "close"
     },
     {
-     "path": "times-table.flode",
+     "path": "times-table.js",
      "panel": 0,
      "action": "open"
     }
@@ -191,7 +355,7 @@
      "action": "close"
     },
     {
-     "path": "factorial.flode",
+     "path": "factorial.js",
      "panel": 0,
      "action": "open"
     }
@@ -212,7 +376,7 @@
      "action": "close"
     },
     {
-     "path": "squared.flode",
+     "path": "squared.js",
      "panel": 0,
      "action": "open"
     }
@@ -233,7 +397,7 @@
      "action": "close"
     },
     {
-     "path": "xy.flode",
+     "path": "xy.js",
      "panel": 0,
      "action": "open"
     }
@@ -254,7 +418,7 @@
      "action": "close"
     },
     {
-     "path": "fibonacci.flode",
+     "path": "fibonacci.js",
      "panel": 0,
      "action": "open"
     }

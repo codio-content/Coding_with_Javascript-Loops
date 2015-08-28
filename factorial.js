@@ -1,34 +1,8 @@
+input0 = 4
 
-var testing = require('/home/codio/workspace/.guides/test-fw/testing')
-
-function fact(x) {
-   if(x==0) {
-      return 1;
-   }
-   return x * fact(x-1);
+for ( i=1, total=1 ; i <= input0 ; i++ ) {
+  total = total * i 
+  console.log(total)
 }
+output(total)
 
-var script = 'factorial.flode';
-
-var random = Math.round(Math.random() * 11 + 1);
-var expected = fact(random);
-
-// console.log(random)
-// console.log(expected)
-
-var out = testing.RunGraphWithInputs(script, [random]);
-
-// console.log(out)
-
-if(out.length == 0) {
-  console.log("Your program isn't outputting anything.")
-  process.exit(1)
-}
-
-if(out[0] == expected) {
-  console.log('Well done!')
-  process.exit(0)
-}
-
-console.log('Not quite right.')
-process.exit(1)

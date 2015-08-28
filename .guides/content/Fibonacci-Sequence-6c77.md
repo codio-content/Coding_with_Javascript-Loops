@@ -12,9 +12,20 @@ The next number is found by adding up the two numbers before it.
 
 and so on!
 
+{Run the code}(node run-user.js fibonacci.js)
+
 {Check It!|assessment}(test-3185812231)
 
 |||guidance
 ## Solution
-![](solutions/fibonacci.png)
+```javascript
+input0 = 8
+
+for ( ctr = 0, next = 1, current = 0, fib = 0; ctr <= input0; ctr ++) {
+  output(fib)
+  fib = next + current
+  next = current
+  current = fib
+}
+```
 |||

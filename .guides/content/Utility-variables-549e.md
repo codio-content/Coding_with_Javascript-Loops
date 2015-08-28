@@ -1,3 +1,6 @@
+Hopefully you'll remember our discussion on utiity variables from the earlier Flode Units.
+
+## Recap
 Very often in a loop, you will need to update a value with each *iteration* of your loop. At the end of the loop you may want to do something with that value.
 
 On the left is a good example of this. This Flode chart is doing the following.
