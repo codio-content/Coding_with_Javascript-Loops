@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Loops-f2ba.md",
@@ -40,7 +40,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Experiments-a5d7.md",
@@ -305,7 +305,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-24-72b4.md",
+   "content-file": ".guides/content/ctr----ctr---72b4.md",
    "chapter": false,
    "reset": []
   },
@@ -427,6 +427,50 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Fibonacci-Sequence-6c77.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "75705031-fb5d-8605-394d-d1f5450959a1",
+   "title": "The 'break' statement",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "4-loops/break.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The--break--statement-7570.md",
+   "chapter": true,
+   "reset": [
+    "4-loops"
+   ]
+  },
+  {
+   "id": "e698af4b-13aa-1f46-997d-2a50389a79d0",
+   "title": "The 'continue' statement",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "4-loops/continue.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The--continue--statement-e698.md",
    "chapter": false,
    "reset": []
   },

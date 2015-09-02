@@ -1,6 +1,6 @@
 [editor]
 tab_size = 2
-; enter your editor preferences here...
+automatic_completions = false
 
 [view-javascript-code]
 ; enter your view-javascript-code preferences here...

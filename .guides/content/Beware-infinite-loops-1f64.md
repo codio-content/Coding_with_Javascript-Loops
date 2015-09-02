@@ -11,7 +11,7 @@ The reason is that because you are never incrementing the `counter` variable, th
 ## Run it then fix it
 Press the Run button below and you will see you never get anything back. 
 
-So, fix the code by adding the counter properly and then you should see the output. 
+So, fix the code by incrementing the counter properly within the loop. You should then see the output. 
 
 {Run the code}(node run-user.js 1-loops/infinite.js)
 
