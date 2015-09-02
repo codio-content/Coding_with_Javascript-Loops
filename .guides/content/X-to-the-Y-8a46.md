@@ -14,7 +14,6 @@ if ( input1 == 0) {
 else {
   for (i = 0, total=1 ; i < input1 ; i++) {
     total = total * input0
-    console.log(total)
   }
   output(total)
 }

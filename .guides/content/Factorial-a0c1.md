@@ -8,28 +8,12 @@ So, `4!` is `4*3*2*1` = `24`.
 
 |||guidance
 ## Solution
-There are various solutions for this (as there are for most challenges).
-
-This one counts down
-
-```javascript
-input0 = 4
-
-for ( i=input0, total=1; i > 1; i-- ) {
-  total = total * i 
-  console.log(total)
-}
-output(total)
-```
-
-and this one counts up
 
 ```javascript
 input0 = 4
 
 for ( i=1, total=1 ; i <= input0 ; i++ ) {
   total = total * i 
-  console.log(total)
 }
 output(total)
 ```

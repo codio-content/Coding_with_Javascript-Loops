@@ -1,3 +1,4 @@
+
 input0 = 10
 ctr = 0
 total = 0
