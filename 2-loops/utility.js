@@ -1,11 +1,10 @@
 
-input0 = 10
-ctr = 0
+counter = 1
 total = 0
-while (ctr <= input0) {
-  total = total + ctr
-  ctr = ctr + 1  
-  output(total)
+
+while ( counter<=10 ) {
+  total = total + counter
+  counter = counter + 1  
+  output( total )
 }
 
-output( 'Final total : ' + total)
