@@ -1,11 +1,26 @@
 In the end of loop statements you can see we have `ctr++`. 
 
-- `ctr++` is shorthand for `ctr = ctr + 1`. 
-- `ctr--` is shorthand for `ctr = ctr - 1`. 
+The `++` operator is called the *increment operator*. It increments a variable by one.
 
-You will very often see this as it saves space and is also nice and clear what it is doing.
+If written after the variable, as in `c++` the variable is incremented after the statement is evaluated. If written before, as in `++c` the variable is incremented before the statement is evaluated. This can effect the order of operations.
 
-## var+= and var-=
+Here, `b` will end up with a value of 8 and `c` with a value of 5:
+```javascript
+var c= 4
+var b= 2 * c++
+output(b)
+output(c)
+```
+
+But in the example below, `b` will end up with a value of 10 because `++c` sets `c = 5` before `2 * c` is evaluated. The `c` variable as before will have a value of 5:
+```javascript
+var c= 4
+var b= 2 * ++c
+output(b)
+output(c)
+```
+
+## variable+= and variable-=
 For those interested, there is another really nice shorthand solution.
 
 - `ctr += 10` is shorthand for `ctr = ctr + 10`
