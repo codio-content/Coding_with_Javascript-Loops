@@ -4,17 +4,19 @@ They may look a little scary but you'll get the hang of them very quickly.
 
 ### A for loop
 ```javascript
-for( ctr = 0, total = 0; ctr<=input0; ctr++) {
-  total = total + ctr
-  output(total)
+var total= 0                                // counter variable
+for(var ctr = 0; ctr <= input0; ctr++) {    // loop up to input0
+  total = total + ctr                       // increase total by the loop count
+  output(total)                             // output the current total
 }
 ```
 
 ### A while loop
 ```javascript
-counter = 0
-while ( counter <= 9) {
-  console.log(counter)
-  counter = counter + 1
+var ctr = 0                 // loop variable
+var total = 0               // counter variable
+while (ctr <= input0) {     // loop until ctr equals input0
+  total = total + ctr++     // increase total by the loop count, increment the loop
+  output(total)             // out the current total
 }
 ```

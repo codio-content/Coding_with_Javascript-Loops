@@ -1,7 +1,8 @@
 
-input0 = 10
+var input0 = 10
+var total = 0
 
-for( ctr = 0, total = 0; ctr<=input0; ctr++ ) {
+for(var ctr= 0; ctr <= input0; ctr++ ) {
   total = total + ctr
   output(total)
 }
