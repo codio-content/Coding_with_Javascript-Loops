@@ -5,17 +5,20 @@ We have looked at the `while` loop so far. However, we are now going to look at 
 Take a look at the code on the left. It does the same as the `while` loop code below.
 
 ```javascript
-input0 = 10   // our special test variable
-var total = 0 // total counter variable
-var ctr = 0   // loop variable
+// Get input from the command line
+input0 = process.argv[2]
 
+// we will use this variable to keep up with the total
+var total = 0 
+
+var ctr = 0           // loop variable
 while(ctr <= input0){ // loop 0 to 10 inclusive
   total = total + ctr // add loop value to total
   ctr = ctr + 1       // increment loop counter
-  output(total)       // print current total
+  console.log(total)  // print current total
 }
 
-output( 'Final total : ' + total) // print final total
+console.log( 'Final total : ' + total) // print final total
 ```
 
 

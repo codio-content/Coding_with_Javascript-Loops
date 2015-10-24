@@ -1,5 +1,3 @@
-{Run the code}(node run-user.js times-table.js)
-
 {Check It!|assessment}(test-788072892)
 
 |||guidance

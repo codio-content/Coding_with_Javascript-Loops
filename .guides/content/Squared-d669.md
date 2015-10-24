@@ -1,5 +1,3 @@
-{Run the code}(node run-user.js squared.js)
-
 {Check It!|assessment}(test-147869595)
 
 |||guidance

@@ -1,14 +1,13 @@
-Test your code here first {Run}(node run-user.js 0-N-0.js)
-
 {Check It!|assessment}(test-1027007121)
 
 |||guidance
 ## Solution
 ```javascript
-input0 = 6
-direction = 0
+// Get input from the command line
+input0 = process.argv[2]
+var direction = 0
 
-if ( input0 < 0) {
+if (input0 < 0) {
   direction = 1  
 }
 else {

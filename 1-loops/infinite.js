@@ -1,6 +1,8 @@
-input0 = 10
-ctr = 0
 
+// Get input from the command line
+input0 = process.argv[2]
+
+var ctr = 0
 while (ctr < input0) {
-  output(ctr)
+  console.log(ctr)
 }

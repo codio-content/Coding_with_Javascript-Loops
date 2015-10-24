@@ -12,8 +12,6 @@ The next number is found by adding up the two numbers before it.
 
 and so on!
 
-{Run the code}(node run-user.js fibonacci.js)
-
 {Check It!|assessment}(test-3185812231)
 
 |||guidance

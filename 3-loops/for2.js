@@ -1,32 +1,36 @@
 
-input0 = 5
+// Get input from the command line
+input0 = process.argv[2]
 
-// Version 1
+// ----------------------------------------------------------------
+console.log("Version 1")
 {
   var total
-  for(var ctr = 0, total = 0; ctr <= input0; ctr++, output(total)) {
+  for(var ctr = 0, total = 0; ctr <= input0; ctr++, console.log(total)) {
     total = total + ctr
   }
-  output( 'Final total : ' + total)
+  console.log( 'Final total : ' + total)
 }
 
-// Version 2
+// ----------------------------------------------------------------
+console.log("Version 2")
 {
   var total= 0                              // holds our total
   for(var ctr = 0; ctr <= input0; ctr++){   // loop until input0
     total= total + ctr                      // add current loop value
-    output(total)                           // output total so far
+    console.log(total)                      // output total so far
   }
-  output('Final total : ' + total)          // output final total
+  console.log('Final total : ' + total)     // output final total
 }
 
-// Version 3 - while loop version
+// ----------------------------------------------------------------
+console.log("Version 3")
 {
-  var total= 0                      // holds our total
-  var ctr= 0                        // our loop counter
-  while(ctr <= input0) {            // loop until input0
-    total = total + ctr++           // update total, increment count
-    output(total)                   // output total so far
+  var total= 0                           // holds our total
+  var ctr= 0                             // our loop counter
+  while(ctr <= input0) {                 // loop until input0
+    total = total + ctr++                // update total, increment count
+    console.log(total)                   // output total so far
   }
-  output('Final total : ' + total)  // output final total
+  console.log('Final total : ' + total)  // output final total
 }
