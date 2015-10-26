@@ -4,10 +4,12 @@
 ## Solution
 
 ```javascript
-input0 = 6
 
-for (i=1; i<=12; i++) {
-  output( input0 * i )
+// Get input from the command line
+var N = 6
+
+for (var i=1; i<=12; i++) {
+  console.log( N * i )
 }
 ```
 

@@ -3,11 +3,20 @@
 |||guidance
 ## Solution
 ```javascript
-input0 = 5
+// Get input from the command line
+var N = process.argv[2]
 
-for( i=0, total=0 ; i <= input0 ; i++ ) {
-  total = total + (i * i)
+// initialize our total to 0
+var total= 0
+
+// sum over the integers 0 to N (inclusive)
+for(var i=0; i <= N ; i++ ) {
+  // accumulate the square of i in total
+  total = total + (i * i)  
 }
-output(total)
+
+// output
+console.log(total)
+
 ```
 |||

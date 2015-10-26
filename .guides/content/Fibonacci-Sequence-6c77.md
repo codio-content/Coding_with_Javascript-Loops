@@ -17,13 +17,29 @@ and so on!
 |||guidance
 ## Solution
 ```javascript
-input0 = 8
+// Get input from the command line
+var N = process.argv[2]
 
-for ( ctr = 0, next = 1, current = 0, fib = 0; ctr <= input0; ctr ++) {
-  output(fib)
-  fib = next + current
-  next = current
-  current = fib
+var fib1= 0      // 1st fib counter
+var fib2= 1      // 2nd fib counter
+var fibT= 0      // fib total
+var result= ''   // result is a string
+
+if(N >= 0) {     // not defined for N < 0
+  result= '0'    // set to zero now
+  if(N > 0){     // 0 for N = 0
+    result = result + ',1'
+    // loop from 2 to N
+    for(var i=2; i <= N; i++){ 
+      fibT= fib1 + fib2;  // total = two previous 
+      fib1= fib2;         // first is now second
+      fib2= fibT;         // second is now total
+      result+= ',' + fibT // append to result 
+    }
+  }
 }
+
+// output
+console.log(result)
 ```
 |||

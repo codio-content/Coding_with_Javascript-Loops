@@ -3,17 +3,15 @@
 |||guidance
 ## Solution
 ```javascript
-input0 = 2
-input1 = 4
+// Get input from the command line
+var X = process.argv[2]
+var Y = process.argv[3]
 
-if ( input1 == 0) {
-  output (1)
+var total= 1;
+for (var i = 0; i < Y ; i++) {
+  total = total * X
 }
-else {
-  for (i = 0, total=1 ; i < input1 ; i++) {
-    total = total * input0
-  }
-  output(total)
-}
+
+console.log(total)
 ```
 |||

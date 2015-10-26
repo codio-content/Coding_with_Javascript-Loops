@@ -1,6 +1,6 @@
 
 // Get input from the command line
-input0 = process.argv[2]
+var input0 = process.argv[2]
 
 // we will use this variable to keep up with the total
 var total = 0              

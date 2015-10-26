@@ -1,6 +1,6 @@
 In the code on the left, you can see that we have three different versions of code that do the same thing.
 
-We have put the `output(total)` into the end of loop stataments. You can run the code and see for yourself that it is the same.
+We have put the `console.log(total)` into the end of loop stataments. You can run the code and see for yourself that it is the same.
 
 {Run the code}(node run-user.js 3-loops/for2.js 5)
 

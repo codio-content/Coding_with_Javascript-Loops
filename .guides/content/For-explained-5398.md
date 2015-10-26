@@ -4,7 +4,7 @@ Let's look at the `for` loop in more detail.
 var total = 0
 for(var ctr = 0; ctr <= input0; ctr++ ) {
   total = total + ctr
-  output(total)
+  console.log(total)
 }
 ```
 

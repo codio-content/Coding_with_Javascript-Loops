@@ -3,21 +3,21 @@ var test = require('./test-fw.js');
 
 test.tests('/home/codio/workspace/fibonacci.js', [{
     inputs: [8],
-    outputs: [0,1,1,2,3,5,8,13,21],
+    outputs: [[0,1,1,2,3,5,8,13,21].join(',')]
   }, {
     inputs: [10],
-    outputs: [0,1,1,2,3,5,8,13,21,34,55],
+    outputs: [[0,1,1,2,3,5,8,13,21,34,55].join(',')]
   }, {
     inputs: [0],
-    outputs: [0],
+    outputs: ['0'],
     message: 'Your code does not handle the scenario where "0" is input.'  
   }, {
     inputs: [1],
-    outputs: [0,1],
+    outputs: ['0,1'],
     message: 'Your code does not handle the scenario where "1" is input.'  
   }, {
     inputs: [-3],
-    outputs: [],
+    outputs: [''],
     message: 'Your code does not handle the scenario where a negative number is given.'  
   }
 ]);
