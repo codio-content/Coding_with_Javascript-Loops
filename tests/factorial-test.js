@@ -1,7 +1,7 @@
 
-var test = require('./test-fw.js');
+var test = require('../test-fw.js');
 
-test.tests('/home/codio/workspace/factorial.js', [{
+test.tests('/home/codio/workspace/challenges/factorial.js', [{
     inputs: [4],
     outputs: [24],
   }, {

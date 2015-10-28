@@ -13,6 +13,6 @@ Press the Run button below and you will see you never get anything back.
 
 So, fix the code by incrementing the counter properly within the loop. You should then see the output. 
 
-{Run the code}(node run-user.js 1-loops/infinite.js 10)
+{Run the code}(node run-user.js content/1-loops/infinite.js 10)
 
 **Important:** if nothing happens when you press the run button after fixing the code, you may need to go back one page then forward again to re-run it.

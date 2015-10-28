@@ -1,7 +1,7 @@
 
-var test = require('./test-fw.js');
+var test = require('../test-fw.js');
 
-test.tests('/home/codio/workspace/times-table.js', [{
+test.tests('/home/codio/workspace/challenges/times-table.js', [{
     inputs: [6],
     outputs: [6,12,18,24,30,36,42,48,54,60,66,72],
   }, {

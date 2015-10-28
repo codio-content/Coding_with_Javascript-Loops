@@ -37,7 +37,7 @@
      "action": "close"
     },
     {
-     "path": "experiment.js",
+     "path": "challenges/experiment.js",
      "panel": 0,
      "action": "open"
     }
@@ -59,7 +59,7 @@
      "action": "close"
     },
     {
-     "path": "1-loops/example.flode",
+     "path": "content/1-loops/example.flode",
      "panel": 0,
      "action": "open"
     }
@@ -83,7 +83,7 @@
      "action": "close"
     },
     {
-     "path": "1-loops/while.js",
+     "path": "content/1-loops/while.js",
      "panel": 0,
      "action": "open"
     }
@@ -116,7 +116,7 @@
      "action": "close"
     },
     {
-     "path": "1-loops/infinite.js",
+     "path": "content/1-loops/infinite.js",
      "panel": 0,
      "action": "open"
     }
@@ -155,7 +155,7 @@
      "action": "close"
     },
     {
-     "path": "0-N.js",
+     "path": "challenges/0-N.js",
      "panel": 0,
      "action": "open"
     }
@@ -177,7 +177,7 @@
      "action": "close"
     },
     {
-     "path": "N-0.js",
+     "path": "challenges/N-0.js",
      "panel": 0,
      "action": "open"
     }
@@ -199,7 +199,7 @@
      "action": "close"
     },
     {
-     "path": "0-N-0.js",
+     "path": "challenges/0-N-0.js",
      "panel": 0,
      "action": "open"
     }
@@ -221,7 +221,7 @@
      "action": "close"
     },
     {
-     "path": "2-loops/utility.flode",
+     "path": "content/2-loops/utility.flode",
      "panel": 0,
      "action": "open"
     }
@@ -245,7 +245,7 @@
      "action": "close"
     },
     {
-     "path": "2-loops/utility.js",
+     "path": "content/2-loops/utility.js",
      "panel": 0,
      "action": "open"
     }
@@ -267,7 +267,7 @@
      "action": "close"
     },
     {
-     "path": "3-loops/for1.js",
+     "path": "content/3-loops/for1.js",
      "panel": 0,
      "action": "open"
     }
@@ -302,7 +302,7 @@
      "action": "close"
     },
     {
-     "path": "3-loops/for2.js",
+     "path": "content/3-loops/for2.js",
      "panel": 0,
      "action": "open"
     }
@@ -352,7 +352,7 @@
      "action": "close"
     },
     {
-     "path": "times-table.js",
+     "path": "challenges/times-table.js",
      "panel": 0,
      "action": "open"
     }
@@ -374,7 +374,7 @@
      "action": "close"
     },
     {
-     "path": "factorial.js",
+     "path": "challenges/factorial.js",
      "panel": 0,
      "action": "open"
     }
@@ -396,7 +396,7 @@
      "action": "close"
     },
     {
-     "path": "squared.js",
+     "path": "challenges/squared.js",
      "panel": 0,
      "action": "open"
     }
@@ -418,7 +418,7 @@
      "action": "close"
     },
     {
-     "path": "xy.js",
+     "path": "challenges/xy.js",
      "panel": 0,
      "action": "open"
     }
@@ -440,7 +440,7 @@
      "action": "close"
     },
     {
-     "path": "fibonacci.js",
+     "path": "challenges/fibonacci.js",
      "panel": 0,
      "action": "open"
     }
@@ -462,7 +462,7 @@
      "action": "close"
     },
     {
-     "path": "4-loops/break.js",
+     "path": "content/4-loops/break.js",
      "panel": 0,
      "action": "open"
     }
@@ -486,7 +486,7 @@
      "action": "close"
     },
     {
-     "path": "4-loops/continue.js",
+     "path": "content/4-loops/continue.js",
      "panel": 0,
      "action": "open"
     }

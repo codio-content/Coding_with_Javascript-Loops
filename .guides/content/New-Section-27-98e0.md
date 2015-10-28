@@ -1,1 +1,1 @@
-{Run the code}(node run-user.js 4-loops/continue.js)
+{Run the code}(node run-user.js content/4-loops/continue.js)

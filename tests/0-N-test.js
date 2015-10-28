@@ -1,7 +1,7 @@
 
-var test = require('./test-fw.js');
+var test = require('../test-fw.js');
 
-test.tests('/home/codio/workspace/0-N.js', [{
+test.tests('/home/codio/workspace/challenges/0-N.js', [{
     inputs: [3],
     outputs: [0,1,2,3],
   }, {

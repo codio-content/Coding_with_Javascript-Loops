@@ -1,7 +1,7 @@
 
-var test = require('./test-fw.js');
+var test = require('../test-fw.js');
 
-test.tests('/home/codio/workspace/fibonacci.js', [{
+test.tests('/home/codio/workspace/challenges/fibonacci.js', [{
     inputs: [8],
     outputs: [[0,1,1,2,3,5,8,13,21].join(',')]
   }, {
