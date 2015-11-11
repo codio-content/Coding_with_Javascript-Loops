@@ -8,16 +8,16 @@ Here, `b` will end up with a value of 8 and `c` with a value of 5:
 ```javascript
 var c= 4
 var b= 2 * c++
-output(b)
-output(c)
+console.log(b)
+console.log(c)
 ```
 
 But in the example below, `b` will end up with a value of 10 because `++c` sets `c = 5` before `2 * c` is evaluated. The `c` variable as before will have a value of 5:
 ```javascript
 var c= 4
 var b= 2 * ++c
-output(b)
-output(c)
+console.log(b)
+console.log(c)
 ```
 
 ## variable+= and variable-=
