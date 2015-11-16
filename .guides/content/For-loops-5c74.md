@@ -1,6 +1,6 @@
 We have looked at the `while` loop so far. However, we are now going to look at a different loop, which does the same thing, but with a different syntax that may be more convenient for some tasks.
 
-{Run the code}(node run-user.js content/3-loops/for1.js 8)
+{Run the code}(node content/3-loops/for1.js 8)
 
 Take a look at the code on the left. It does the same as the `while` loop code below.
 
