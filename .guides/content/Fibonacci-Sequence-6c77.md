@@ -18,7 +18,9 @@ and so on!
 ## Solution
 ```javascript
 // Get input from the command line
-var N = process.argv[2]
+var N = +process.argv[2]
+
+// Your code goes here
 
 var fib1= 0      // 1st fib counter
 var fib2= 1      // 2nd fib counter

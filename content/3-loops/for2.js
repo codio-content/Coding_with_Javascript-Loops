@@ -1,6 +1,6 @@
 
 // Get input from the command line
-N = process.argv[2]
+var N = +process.argv[2]
 
 // ----------------------------------------------------------------
 console.log("Version 1")

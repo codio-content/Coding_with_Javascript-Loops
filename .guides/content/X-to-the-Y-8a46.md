@@ -4,9 +4,10 @@
 ## Solution
 ```javascript
 // Get input from the command line
-var X = process.argv[2]
-var Y = process.argv[3]
+var X = +process.argv[2]
+var Y = +process.argv[3]
 
+// Your code goes here
 var total= 1;
 for (var i = 0; i < Y ; i++) {
   total = total * X

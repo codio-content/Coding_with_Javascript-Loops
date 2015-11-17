@@ -2,7 +2,7 @@ In the code on the left, you can see that we have three different versions of co
 
 We have put the `console.log(total)` into the end of loop stataments. You can run the code and see for yourself that it is the same.
 
-{Run the code}(node run-user.js content/3-loops/for2.js 5)
+{Run the code}(node content/3-loops/for2.js 5)
 
 ## So what is the difference?
 The `for` and `while` loops are *functionally equivalent* and the only difference is which indicates the intention of the code better and which is likely to be better understood by another reader.

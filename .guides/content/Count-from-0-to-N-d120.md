@@ -5,7 +5,7 @@
 ```javascript
 
 // Get input from the command line
-var N = process.argv[2]
+var N = +process.argv[2]
 
 var ctr = 0         // counter variable
 while (ctr <= N) {  // our loop condition
