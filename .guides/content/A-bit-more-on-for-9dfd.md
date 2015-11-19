@@ -15,7 +15,7 @@ The `for` and `while` loops are *functionally equivalent* and the only differenc
 5. Once you have seen `for` and `while` statements a few times, the loop as a whole is easier to read, regardless of which loop is chosen.
 
 ## Play
-Feel free to hack the code around on the left. If you mess it up, reset it by the 'Reset Chapter' option in the Settings menu at the top of this page.
+Feel free to hack the code around on the left. If you mess it up, reset it by the 'Restore current files' option in the Settings menu at the top of this page.
 
 
 
