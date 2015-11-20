@@ -116,7 +116,7 @@
      "action": "close"
     },
     {
-     "path": "content/1-loops/infinite.js",
+     "path": "challenges/infinite.js",
      "panel": 0,
      "action": "open"
     }
