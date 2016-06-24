@@ -1,8 +1,10 @@
-The code you see on the left is the exact equivalent written in Javascript.
+The code you see on the left is the exact equivalent of the Flode chart, but written in JavaScript.
 
-You can run this code : {Run}(node content/1-loops/while.js)
+Have a go at running the code: 
 
-Here's the Flode chart as a reminder.
+{Run}(node content/1-loops/while.js)
+
+Here is the Flode chart as a reminder:
 
 ![](content/1-loops/while.png)
 

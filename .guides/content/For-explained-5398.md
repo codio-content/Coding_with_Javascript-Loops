@@ -8,18 +8,18 @@ for(var ctr = 0; ctr <= N; ctr++ ) {
 }
 ```
 
-Notce that there are 3 parts to the `for` statement ...
+Notice that there are 3 parts to the `for` statement. These are explained below.
 
 ## Initialization
 `var ctr = 0; ` 
 
-This is the initialization part. You can have several Javascript statements separated by a `,`. At the end comes a `;`
+This is the initialization part. You can have several JavaScript statements separated by a `,`. At the end you put a `;`
 
 ## Condition
-`ctr <= N;` this is the second section. It is the loop condition. The loop will execute until the condition is no longer true.
+`ctr <= N;` this is the second part. It is the loop condition. The loop will execute until the condition is no longer true.
 
 ## End of loop statements
-`ctr++` any Javascript statements found here (if more than one, these are also separated by `,`) are executed at the end of the loop code block just before the condition is evaluated. 
+`ctr++` is the end of loop statement. Any JavaScript statements found here are executed at the end of the loop code block just before the condition is evaluated. If there is more than one end of loop statement, the statements are separated by `,`
 
 ## What is ctr++?
-Explained in a moment.
+Keep on working through this unit and you will find out!

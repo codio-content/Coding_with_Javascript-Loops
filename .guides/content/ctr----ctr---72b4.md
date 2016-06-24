@@ -1,10 +1,10 @@
-In the end of loop statements you can see we have `ctr++`. 
+`ctr++` is used in end of loop statements.
 
 The `++` operator is called the *increment operator*. It increments a variable by one.
 
-If written after the variable, as in `c++` the variable is incremented after the statement is evaluated. If written before, as in `++c` the variable is incremented before the statement is evaluated. This can effect the order of operations.
+If `++` is written after the variable, like this: `c++`, the variable is incremented after the statement is evaluated. If `++` is written before, like this: `++c`, the variable is incremented before the statement is evaluated. This can affect the order of operations.
 
-Here, `b` will end up with a value of 8 and `c` with a value of 5:
+Below, `b` will end up with a value of 8 and `c` with a value of 5:
 ```javascript
 var c= 4
 var b= 2 * c++
@@ -12,7 +12,7 @@ console.log(b)
 console.log(c)
 ```
 
-But in the example below, `b` will end up with a value of 10 because `++c` sets `c = 5` before `2 * c` is evaluated. The `c` variable as before will have a value of 5:
+But in the following example, `b` will end up with a value of 10 because `++c` sets `c = 5` before `2 * c` is evaluated. The `c` variable as before will have a value of 5:
 ```javascript
 var c= 4
 var b= 2 * ++c
@@ -21,7 +21,8 @@ console.log(c)
 ```
 
 ## variable+= and variable-=
-For those interested, there is another really nice shorthand solution.
+There is a shorthand solution too (a shorter and neater way to write the code). See below:
+
 
 - `ctr += 10` is shorthand for `ctr = ctr + 10`
 - `ctr -= 10` is shorthand for `ctr = ctr - 10`
