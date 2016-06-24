@@ -1,6 +1,6 @@
 **Loop statements**
 
-- The public GitHub repository for this unit can be found at [https://github.com/codio-contentCoding_with_Javascript-Loops](https://github.com/codio-content/Coding_with_Javascript-Loops).
+- The public GitHub repository for this unit can be found at [https://github.com/codio-content/Coding_with_Javascript-Loops](https://github.com/codio-content/Coding_with_Javascript-Loops).
 
 - For more information on other units and modules in the An Introduction to Programming course go to [Course-:-Introduction-to-Programming](https://github.com/codio-content/Information/wiki/Course-:-Introduction-to-Programming)
 
